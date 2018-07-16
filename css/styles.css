@@ -117,20 +117,6 @@ p {
     content:"";
     display: block;
     width: 100%;
-    background:rgba(36, 151, 163,.4);
-    top:0;
-    bottom:0;
-}
-
-.overlay-yellow {
-    position: relative;
-}
-
-.overlay-yellow:before {
-    position: absolute;
-    content:"";
-    display: block;
-    width: 100%;
     background:rgb(238, 229, 85,.95);
     top:0;
     bottom:0;
@@ -163,10 +149,6 @@ p {
     background-position: center top;
     background-size: contain;
     background-repeat: no-repeat;
-    align-items: center;
-    display: flex;
-    vertical-align: middle;
-    width: 100%;
     min-height: 80vh;
     padding-bottom:80px;
     color:#ffffff;
