@@ -46,17 +46,12 @@ p {
     border:solid 1px #C72C72;
     background:none;
     color:#C72C72;
-    transition: all .1s ease-in;
 }
 
 
 .btn-ghost-pink:hover {
     border:solid 1px #ffffff;
-    background:none;
     color:#ffffff;
-    padding-left:35px;
-    padding-right:35px;
-    border-radius: 0;
 }
 
 
@@ -117,20 +112,6 @@ p {
     content:"";
     display: block;
     width: 100%;
-    background:rgba(36, 151, 163,.4);
-    top:0;
-    bottom:0;
-}
-
-.overlay-yellow {
-    position: relative;
-}
-
-.overlay-yellow:before {
-    position: absolute;
-    content:"";
-    display: block;
-    width: 100%;
     background:rgb(238, 229, 85,.95);
     top:0;
     bottom:0;
@@ -147,26 +128,12 @@ p {
     align-items: center;
 }
 
-.intro-img {
-    transition: all .4s ease-out;
-}
-
-.intro-img:hover {
-    margin-top:-20px;
-    padding-bottom:20px;
-    margin-left:5px;
-}
-
 .second-section {
     background:#030116;
     background-image:url('../img/astronaut.png');
     background-position: center top;
     background-size: contain;
     background-repeat: no-repeat;
-    align-items: center;
-    display: flex;
-    vertical-align: middle;
-    width: 100%;
     min-height: 80vh;
     padding-bottom:80px;
     color:#ffffff;
